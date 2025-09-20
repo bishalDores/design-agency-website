@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({ children, variant = "primary", rounded 
   const baseStyles = "px-6 py-2 font-medium transition-colors duration-200 cursor-pointer inline-flex items-center justify-center";
 
   const variants: Record<"primary" | "secondary", string> = {
-    secondary: "bg-brand-green text-white hover:bg-brand-dark",
+    secondary: "bg-brand-green text-[#1B1F24] font-bold hover:bg-transparent hover:border-brand-green hover:text-brand-green hover:border",
     primary: "border border-brand-green text-brand-green hover:bg-brand-green hover:text-white",
   };
 

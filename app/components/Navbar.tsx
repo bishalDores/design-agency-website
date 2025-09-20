@@ -57,7 +57,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`absolute top-full left-0 w-full bg-body-bg shadow-md overflow-hidden transition-[max-height] duration-500 ease-in-out md:hidden ${
+        className={`absolute top-full left-0 w-full bg-body-bg z-10 shadow-md overflow-hidden transition-[max-height] duration-500 ease-in-out md:hidden ${
           isOpen ? "max-h-96" : "max-h-0"
         }`}
       >

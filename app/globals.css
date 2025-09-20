@@ -9,13 +9,26 @@
   --color-body-bg: #222931;
   --color-brand-white: #ffffff;
 
-  --text-headline-01: 52px/64px;
-  --text-headline-02: 40px/52px;
-  --text-headline-03: 24px/28px;
-  --text-button: 20px/23px;
-  --text-paragraph-01: 18px/28px;
-  --text-paragraph-02: 16px/28px;
-  --text-body: 16px/24px;
+  --text-headline-01: 52px;
+  --text-headline-01--line-height: 64px;
+
+  --text-headline-02: 40px;
+  --text-headline-02--line-height: 52px;
+
+  --text-headline-03: 24px;
+  --text-headline-03--line-height: 28px;
+
+  --text-button: 20px;
+  --text-button--line-height: 23px;
+
+  --text-paragraph-01: 18px;
+  --text-paragraph-01--line-height: 28px;
+
+  --text-paragraph-02: 16px;
+  --text-paragraph-02--line-height: 28px;
+
+  --text-body: 16px;
+  --text-body--line-height: 24px;
 }
 
 body {
